@@ -38,6 +38,7 @@ Plugin 'vim-scripts/matchit.zip'
 Plugin 'briangershon/html5.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
+Plugin 'justinj/vim-react-snippets'
 
 call vundle#end()
 
