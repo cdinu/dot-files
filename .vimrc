@@ -39,6 +39,7 @@ Plugin 'briangershon/html5.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
 Plugin 'justinj/vim-react-snippets'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 
