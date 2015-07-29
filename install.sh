@@ -2,7 +2,7 @@
 
 echo "This thing is destructive with your files. Last chance to cancel."
 echo "NB- When zsh is installing, it starts itself. Ctrl+D to exit the shell and continue"
-read 
+read
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -18,5 +18,4 @@ vim +BundleInstall +qall
 
 cd ~/.vim/bundle/tern_for_vim && npm install
 
-echo >> ~/.vimrc.local
-echo "colorscheme Tomorrow-Night-Eighties" >> ~/.vimrc.local
+echo Done. Congrats!
