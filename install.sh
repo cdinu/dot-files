@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo This thing is destructive with your files. Last chance to cancel.
+echo "This thing is destructive with your files. Last chance to cancel."
+echo "NB- When zsh is installing, it starts itself. Ctrl+D to exit the shell and continue"
 read 
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
