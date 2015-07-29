@@ -1,0 +1,6 @@
+Bundle 'jiangmiao/auto-pairs'
+Plugin 'bling/vim-airline'
+Bundle 'moll/vim-node'
+Bundle 'marijnh/tern_for_vim'
+Plugin 'bling/vim-bufferline'
+
