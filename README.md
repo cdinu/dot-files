@@ -1,8 +1,6 @@
-These are my configuration files. For now VIM is enough
+These are some my configuration files.
 
-In the future I plan to have the scripts to install required npm packages for develpment as well. For now these are:
-
-Install the required programs
+Install the required programs manually
 
 ```
 apt-get update
@@ -13,3 +11,17 @@ wget -qO- https://get.docker.com/ | sh
 npm i -g jshint jscs webpack webpack-dev-server
 ```
 
+Then carefully run `install.sh`. The script overwrites everyting, so be careful!
+
+There is a [Docker Container image](https://registry.hub.docker.com/u/cdinu/dev-machine) to have all this goodies on a Linux machine.
+
+The command line that you can alias is
+```
+docker run --name golem --hostname golem -ti -v $PWD:/host/current -v $HOME:/host/home -v /var/run:/var/run -v $HOME/.ssh:/root/.ssh:ro --privileged  cdinu/dev-machine /bin/zsh
+```
+
+Add your needed ports so that what you run in the machine is available publicly. Syntax for that is:
+
+```
+docker run --name golem --hostname golem -ti -p 3000:3000 -p 8080:8080 -v $PWD:/host/current -v $HOME:/host/home -v /var/run:/var/run -v $HOME/.ssh:/root/.ssh:ro --privileged  cdinu/dev-machine /bin/zsh
+```
