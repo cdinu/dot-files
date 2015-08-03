@@ -6,7 +6,7 @@ Install the required programs manually
 apt-get update
 apt-get install -y curl wget
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
-apt-get install -y zsh vim mc git nodejs
+apt-get install -y zsh vim mc git nodejs tmux
 wget -qO- https://get.docker.com/ | sh
 npm i -g jshint jscs webpack webpack-dev-server
 ```
