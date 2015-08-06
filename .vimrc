@@ -67,8 +67,8 @@ nmap <leader>g :GitGutterToggle<CR>
 nmap <leader>c <Plug>Kwbd
 nmap <leader>n <plug>NERDTreeTabsToggle<CR>
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
-vmap <C-x> :!pbcopy<CR>
-vmap <C-c> :w !pbcopy<CR><CR>
+"vmap <C-x> :!pbcopy<CR>
+"vmap <C-c> :w !pbcopy<CR><CR>
 map <leader>r :NERDTreeFind<cr>
 
 " plugin settings

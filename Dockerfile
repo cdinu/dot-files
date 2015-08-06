@@ -4,7 +4,7 @@ MAINTAINER Cristian Dinu @cdinu
 RUN apt-get update
 RUN apt-get install -y curl wget
 RUN curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
-RUN apt-get install -y zsh vim mc git nodejs
+RUN apt-get install -y zsh vim mc git nodejs tmux
 RUN wget -qO- https://get.docker.com/ | sh
 RUN npm i -g jshint jscs webpack webpack-dev-server
 

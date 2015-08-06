@@ -4,6 +4,7 @@ plugins=(git)
 export PATH="$HOME/bin:$PATH"
 source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
+export TERM=xterm-256color
 
 alias dst='docker start'
 alias dsp='docker stop'
