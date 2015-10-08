@@ -19,5 +19,5 @@ nmap <leader>cl oconsole.log();<Esc>hi
 nmap <leader>cd oconsole.debug();<Esc>hi
 nmap <leader>fn afunction () {}<Esc>ha
 
-colorscheme Tomorrow-Night-Eighties
+"colorscheme Tomorrow-Night-Eighties
 "colorscheme morning
